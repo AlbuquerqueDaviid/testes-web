@@ -83,8 +83,8 @@ main {
      color: white;
      background-image: linear-gradient(to bottom, var(--cor04), var(--cor05));
      font-family: 'Insolata', sans-serif, Helvetica;
-     max-width: 800px;
-     max-height: 1200px;
+     max-width: 850px;
+     max-height: 1300px;
      margin: auto;
      margin-top: 40px;
      padding: 100px;
@@ -95,10 +95,10 @@ main h1 {
 }
 article {
     background-color: var(--cor03);
-    max-height: 1300px;
+    max-height: 1350px;
     margin: auto;
     border-radius: 20px;
-    padding: 20px 20px 20px 25px;
+    padding: 20px 20px 20px 40px;
     box-shadow: 5px 5px 10px, black;
 }
 article h1 {
@@ -120,6 +120,7 @@ article li {
     background-image: linear-gradient(to right, var(--cor04), transparent);
     border-radius: 10px;
     text-shadow: 1px 1px 2px var(--cor02);
+    margin-top: 8px;
 }
 img {
     border-radius: 10px;
