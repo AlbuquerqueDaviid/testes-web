@@ -99,6 +99,7 @@ article {
     margin: auto;
     border-radius: 50px;
     padding: 20px;
+    position: center;
 }
 article h1 {
     text-align: center;
