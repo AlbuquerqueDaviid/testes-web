@@ -94,7 +94,6 @@ main h1 {
 article {
     background-color: var(--cor03);
     max-width: 850px;
-    min-width: 370px;
     margin: auto;
     padding: 10px;
     border-radius: 35px;
