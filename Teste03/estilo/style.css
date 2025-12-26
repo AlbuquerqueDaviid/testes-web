@@ -94,11 +94,10 @@ main h1 {
 }
 article {
     background-color: var(--cor03);
-    max-height: 1350px;
+    max-width: 850px;
     margin: auto;
+    padding: 40px;
     border-radius: 50px;
-    padding: 20px;
-    position: center;
 }
 article h1 {
     text-align: center;
@@ -119,7 +118,7 @@ article li {
     background-image: linear-gradient(to right, var(--cor04), transparent);
     border-radius: 10px;
     text-shadow: 1px 1px 2px var(--cor02);
-    margin-top: 8px;
+    margin: 5px 10px 5px 20px
 }
 img {
     border-radius: 10px;
