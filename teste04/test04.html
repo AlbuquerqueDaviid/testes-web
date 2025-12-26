@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando centralização</title>
+    <style>
+body {
+    
+}
+main {
+    height: 100vh;
+    border: 5px dashed red;
+}
+.cont {
+    border: 1px solid black;
+    border-radius: 8px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 5px;
+}
+article#art1 {
+     position: absolute;
+     width: 500px;
+     height: 800px;
+     right: 70%; 
+     bottom: 30%; 
+     transform: translate();  
+}
+article#art2 {
+     position: absolute;
+     left: 70%;
+     bottom: 70%;
+   
+}
+    </style>
+</head>
+<body>
+    <main>
+        <article class="cont" id="art1">
+           <h1>Texto 1</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veniam, cumque magni accusantium harum vero officiis, vel fugit tempore, inventore ipsa consectetur blanditiis quibusdam voluptate molestiae ex. Tempora, nam? Natus.</p>
+        </article>
+        <article class="cont" id="art2">
+           <h1>Texto 2</h1>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat doloremque aliquam ipsam. Nobis asperiores sequi harum et commodi itaque modi delectus ea culpa incidunt laborum, nulla, eaque laudantium tempore eos.</p>
+        </article>
+    </main>
+</body>
+</html>
